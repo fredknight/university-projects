@@ -26,29 +26,29 @@ The following is the full list of modules that I had taken as part of my MSci de
   - CE202 Software Engineering
   - CE203 Application Programming
   - CE204 Data Structures and Algorithms
-  - CE212 Web Application Programming
+  - [CE212 Web Application Programming](ce212-web-application-programming)
   - CE213 Artificial Intelligence
   - CE218 Computer Game Programming
   - CE221 C++ Programming
-  - CE291 Team Project Challenge (CS)
+  - [CE291 Team Project Challenge (CS)](ce291-team-project-challenge-(cs))
 
 - **2020-2021 - Year Three**
 
   - CE301 Individual Capstone Project Challenge
-  - CE303 Advanced Programming
-  - CE306 Information Retrieval
+  - [CE303 Advanced Programming](ce303-advanced-programming)
+  - [CE306 Information Retrieval](ce306-information-retrieval)
   - CE310 Evolutionary Computation and Genetic Programming
   - CE314 Natural Language Engineering
-  - CE316 Computer Vision
+  - [CE316 Computer Vision](ce316-computer-vision)
 
 - **2021-2022 - Year Four**
 
   - CE708 Computer Security
   - CE719 ICT Systems Integration and Management
-  - CE802 Machine Learning
-  - CE811 Game Artificial Intelligence
-  - CE881 Mobile and Social Application Programming
-  - CE889 Neural Networks and Deep Learning
+  - [CE802 Machine Learning](ce802-machine-learning)
+  - [CE811 Game Artificial Intelligence](ce811-game-artificial-intelligence)
+  - [CE881 Mobile and Social Application Programming](ce881-mobile-and-social-application-programming)
+  - [CE889 Neural Networks and Deep Learning](ce889-neural-networks-and-deep-learning)
   - CE902 Professional Practice and Research Methodology
   - CE903 Group Project
   
