@@ -10,7 +10,7 @@ An accompanying README text file was also to be included, providing instructions
 
 The final agent was developed stochastic hill-climbing genetic algorithm, where the chromosomes for each generation would consist of a series of predefined rules. The performance of the agent would both be decided on the chosen sequence of rules, as well as the quality of the defined rules themselves.
 
-The purpose of the files and directories within this project are explained briefly below:
+The purpose of the files within this project are explained briefly below:
 
 - '**chromosome_evaluator.py**'
 
