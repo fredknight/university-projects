@@ -1,4 +1,4 @@
-# App Design
+# Completed App
 
 The aim of this project was to finish development on a completed application, building on the work completed within the '**App Design**' project. Alongside this, a report should be written to demonstrate progress with the development and the implementation of the app, and a presentation to demonstrate the applications features and code.
 
