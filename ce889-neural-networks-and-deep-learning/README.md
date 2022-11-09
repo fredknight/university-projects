@@ -2,11 +2,11 @@
 
 This directory contains the work associated with the module **CE889 Neural Networks and Deep Learning**.
 
-- Multi-Layer Perceptron (Individual Assignment)
+- '**Multi-Layer Perceptron (Individual Assignment)**'
 
   - This project involved developing a feed-forward neural network with backwards-propagation from scratch.
 
-- Deep Learning (Group Project)
+- '**Deep Learning (Group Project)**'
 
   - This project involved developing a deep learning neural network model for use in the ['**Rossman Store Sales**'](https://www.kaggle.com/c/rossmann-store-sales) Kaggle competition.
 
