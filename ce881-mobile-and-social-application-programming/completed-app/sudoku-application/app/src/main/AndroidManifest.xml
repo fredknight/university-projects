@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/**
+ * Author:
+ * StudentID: fk18726
+ * RegNumber: 1804162
+ **/
+-->
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sudoku_application">
+
+    <application
+        android:theme="@style/splashScreenTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round">
+
+        <activity
+            android:name="com.example.sudoku_application.NewGameActivity"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize"/>
+
+        <activity
+            android:name="com.example.sudoku_application.SolverActivity"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize"/>
+
+        <activity
+            android:name="com.example.sudoku_application.GameActivity"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize"/>
+
+        <activity
+            android:name="com.example.sudoku_application.AboutActivity"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize"/>
+
+        <activity
+            android:name="com.example.sudoku_application.MainActivity"
+            android:exported="true"
+            android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

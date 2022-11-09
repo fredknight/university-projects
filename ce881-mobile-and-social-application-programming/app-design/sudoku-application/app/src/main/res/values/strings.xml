@@ -1,0 +1,44 @@
+<!-- Author: StudentID: fk18726 RegNumber: 1804162 -->
+<resources>
+    <string name="app_name">CE881_Assignment</string>
+    <string name="ce881_assignment">CE881 Assignment</string>
+    <string name="fk18726">FK18726</string>
+    <string name="about_paragraph0">
+        This app was developed for the CE881 Module Assignment. \n
+        Author: Fred Knight \n
+        Registration Number: 1804162
+    </string>
+    <string name="author">Fred Knight</string>
+    <string name="reg_number">1804162</string>
+    <string name="quit_app_title">Quitting Application…</string>
+    <string name="quit_app_prompt">Are you sure you would like to quit?</string>
+    <string name="first_greetings">Greetings! What is your name?</string>
+    <string name="enter_name">Please enter your first name:</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="clear">Clear</string>
+    <string name="general_about">
+        Sudoku is played on a grid of 9 x 9 spaces.
+        Within the rows and columns are 9 “squares” (made up of 3 x 3 spaces).
+        Each row, column and square (9 spaces each) needs to be filled out with the numbers 1-9,
+        without repeating any numbers within the row, column or square.
+    </string>
+    <string name="about_game">
+        The New Game option allows for you to play a randomised game. Enter numbers into the boxes,
+        before checking that your solution is correct. Each day that you complete one puzzle increases
+        your daily streak.
+    </string>
+    <string name="about_solver">
+        The Solver option allows for you to enter values into an empty puzzle; from which a solution
+        will be produced if possible. Although a single solution will be given, there may be multiple
+        solutions to a puzzle.
+    </string>
+    <string name="player_streak">Daily Puzzle Streak: 0 Days.</string>
+</resources>

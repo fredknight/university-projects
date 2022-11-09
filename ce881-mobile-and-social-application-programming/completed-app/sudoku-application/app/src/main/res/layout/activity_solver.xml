@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/**
+ * Author:
+ * StudentID: fk18726
+ * RegNumber: 1804162
+ **/
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/textView5"
+        android:background="@color/salmon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/enter_puzzle"
+        android:fontFamily="sans-serif"
+        app:layout_constraintBottom_toTopOf="@+id/SolverView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.example.ce881assignment.SolverView
+        android:id="@+id/SolverView"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SolverView">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:layout_weight="1"
+                android:onClick="buttonOne"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_2"
+                android:layout_weight="1"
+                android:onClick="buttonTwo"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_3"
+                android:layout_weight="1"
+                android:onClick="buttonThree"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_4"
+                android:layout_weight="1"
+                android:onClick="buttonFour"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_5"
+                android:layout_weight="1"
+                android:onClick="buttonFive"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_6"
+                android:layout_weight="1"
+                android:onClick="buttonSix"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_7"
+                android:layout_weight="1"
+                android:onClick="buttonSeven"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_8"
+                android:layout_weight="1"
+                android:onClick="buttonEight"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/button9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_9"
+                android:layout_weight="1"
+                android:onClick="buttonNine"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="14sp"
+                android:id="@+id/buttonClear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/clear"
+                android:layout_weight="1"
+                android:onClick="buttonClear"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/buttonReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/reset"
+                android:layout_weight="1"
+                android:onClick="buttonReset"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:textSize="32sp"
+                android:id="@+id/buttonCheck"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/solve"
+                android:layout_weight="1"
+                android:onClick="buttonSolve"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
