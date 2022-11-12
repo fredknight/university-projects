@@ -18,7 +18,7 @@ The purpose of the files and directories within this project are explained brief
 
   - This directory contains the library dependencies associated with this project. As of now there is only one dependency for this project:
 
-    - '**mysql-connector-j-8.0.31.jar**' - This dependency is a driver that provides MySQL connectivity for Java client programs. This particular version of the Java matches that of my current MySQL installation version ('**8.0.31**').
+    - '**mysql-connector-j-8.0.31.jar**' - This dependency is a driver that provides MySQL connectivity for Java client programs. This particular version of the library matches that of my current MySQL installation version ('**8.0.31**').
 
 - '**src**'
 
