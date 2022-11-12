@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #fce1e0;
+    color: #222222;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+#noName, #inName {
+    text-align: center;
+}

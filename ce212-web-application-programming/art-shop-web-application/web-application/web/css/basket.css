@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #fce1e0;
+    color: #222222;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+#emptyB {
+    text-align: center;
+}
+
+input[type=text] {
+    border: 1px solid #aaa;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    width: 95%;
+    padding: 5px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    width: 95%;
+    margin: 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #aaa;
+    padding: 8px;
+}
+
+#order, #basket {
+    float: right;
+    text-align: center;
+    height: 100%;
+    top: 80%;
+}
+
+#order {
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    width: 20.5%;
+    background-color: #dddddd;
+    height: 100%;
+}
+
+#basket {
+    width: 79.5%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+table {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    width: 100%;
+    top: 0;
+    table-layout: fixed;
+}
+
+td, th {
+    border: 1px solid #aaa;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+}
+
+td a {
+    display: block;
+    width: 100%;
+}
+
+#tot {
+    margin: 25px 0 0;
+    padding: 0;
+}
+
+#img {
+    position: relative;
+}
+
+img {
+    min-width: 80%;
+    max-height: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#rem, #rem input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#rem input {
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+input[type=submit] {
+    display:block;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #aaa;
+    padding: 8px;
+    background-color: #e6e6e6;
+    margin-left: 2.5%;
+    height: 40px;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+}
+
+#pO {
+    margin-bottom: 0;
+}
+
+#eB input {
+    margin-top: 0;
+    background-color: #CA7D84;
+}
+
+#eB input:hover {
+    background-color: #AD343E;
+    color: #dddddd;
+}
+
