@@ -36,7 +36,7 @@ The purpose of the files within this project are explained briefly below:
 
   - This file contains the code to integrate the trained neural network weights with the provided game (instructions on integrating this are provided).
   
-- '**group_presentation.pptx**'
+- '**CE889 Individual Project.pptx**'
 
   - This file contains the slides used during my presentation that accompanied my demonstration. It provides an overview of the development process, an explanation of the main functions, and the key algorithms and components that form the neural network.
 
